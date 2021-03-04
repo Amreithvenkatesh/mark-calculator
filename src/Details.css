@@ -1,0 +1,37 @@
+.form-container{
+    width: 40%;
+    margin: 100px auto 10px auto;
+    padding: 50px;
+    border-radius: 2rem;
+    background:linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    backdrop-filter: blur(1rem);
+}
+.form-container h2{
+    margin: 0px auto 0px auto;
+}
+form{
+    padding-top: 50px;
+}
+form input, form label{
+    display: block;
+    width: 90%;
+    margin: 10px 100px 10px 0px;
+}
+form input{
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid black ;
+}
+button{
+    cursor: pointer;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    border-radius: 2rem;
+}
+button:hover{
+    opacity: 0.8;
+}
