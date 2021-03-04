@@ -18,6 +18,7 @@ pip install -r requirements.txt
 Create 2 terminals
 one for frontend and one for backend 
 frontend:
+go to folder 'mark calculators':
 npm start
 backend:
 python manage.py runserver
@@ -27,6 +28,9 @@ python manage.py runserver
 
 in your browser open localhost:3000/
 the website should start
+
+-------------------------------------------------------------------------------------------
+
 
 
 
