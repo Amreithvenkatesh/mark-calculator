@@ -20,7 +20,7 @@ const Enter_marks = () => {
         console.log(marklist)
         setIsPending(true);
 
-        fetch('http://localhost:3000/leaderboard/',{
+        fetch('http://localhost:8000/leaderboard/',{
             method:'POST',
             headers: { "Content-Type":"application/json"},
             body: JSON.stringify(marklist)
