@@ -7,7 +7,7 @@ const Leader_page = () => {
     const [error, setError] = useState(null);
     
         useEffect(()=>{
-            fetch('http://localhost:3000/leaderboard/')
+            fetch('http://localhost:8000/leaderboard/')
                 .then(res =>{
                     if(!res.ok){
                         throw Error('Data not fetched');
