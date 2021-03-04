@@ -7,7 +7,7 @@ const Leader_page = () => {
     const [error, setError] = useState(null);
     
         useEffect(()=>{
-            fetch('https://mark-calculator.herokuapp.com/leaderboard')
+            fetch('http://localhost:3000/leaderboard/')
                 .then(res =>{
                     if(!res.ok){
                         throw Error('Data not fetched');
